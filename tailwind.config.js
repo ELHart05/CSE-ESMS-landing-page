@@ -15,6 +15,7 @@ export default {
         "main": ["Inter", "sans-serif"]
       },
       screens: {
+        "2sm": "354px",
         "2md": "676px",
         "2lg": "860px"
       }

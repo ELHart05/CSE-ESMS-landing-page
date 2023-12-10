@@ -1,8 +1,7 @@
 import ArrowR from '/arrow-right.svg'
 import ArrowL from '/arrow-left.svg'
+import { useState } from 'react'
 import './style.css'
-import { useEffect, useState } from 'react'
-//TODO: coding Challeges section
 
 const Challege = ({ numeration, title, description, currentIndex }) => {
   return (
@@ -43,8 +42,8 @@ const Challeges = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <section id='challenges' className='block 2lg:flex items-center justify-between gap-4 px-4 sm:px-20 sm:pt-20 2md:px-4'>
-      <div className='flex flex-col items-center justify-center pt-16 gap-2'>
+    <section id='challenges' className="bg-[url('/lineright.svg')] bg-contain py-8 2lg:pb-0 bg-no-repeat bg-[position:right] relative block 2lg:flex items-center justify-between gap-4 px-4 sm:px-20 sm:pt-20 2md:px-4">
+      <div className='flex flex-col items-center justify-center gap-2'>
         <h2 className='text-main font-black text-3xl sm:text-5xl'>Challenges</h2>
         <div className='max-w-4xl overflow-hidden flex items-center justify-start text-center w-full 2lg:pb-20 scrollbar-hide'>
           {
