@@ -1,0 +1,25 @@
+.about-section {
+    text-align: center;
+    margin: 30px 30px;
+    width: 50%;
+}
+
+.about-paragraph {
+    color: #2B2A4C;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline 3px rgb(0, 217, 255);
+    border-left: 2.5px solid #B31312;
+    border-top: 2.5px solid #B31312;
+    padding: 40px;
+    display: block;
+}
+
+.about-title {
+    color: #E25C07;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 0 10px;
+}
