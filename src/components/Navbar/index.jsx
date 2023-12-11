@@ -26,7 +26,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className='relative bg-second px-16 2md:px-4 py-4 text-white flex 2md:flex-row items-center justify-between gap-4'>
-      <a className='font-black text-2xl' href="#">LOGO</a>
+      <a className='font-black text-2xl' href="#">Code2Exit</a>
       <div className={`z-50 flex px-16 2md:p-0 w-[70%] max-w-[280px] 2md:w-fit 2md:max-w-none 2md:flex-row text-center min-h-screen 2md:min-h-fit flex-col bg-black 2md:bg-transparent items-center justify-center gap-4 sm:gap-8 absolute top-0 ${(isOpen) ? 'left-0' : '-left-96'} transition-all 2md:static`}>
         <nav>
           <ul className='flex 2md:flex-row flex-col gap-4 font-bold text-md sm:text-lg'>

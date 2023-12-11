@@ -31,7 +31,7 @@ const socialMediaAccounts = [
 const Footer = () => {
   return (
     <footer className='flex flex-col md:grid items-center justify-center text-center md:text-left bg-second px-16 2md:px-4 py-16 text-white md:grid-cols-3 gap-4 md:gap-0'>
-      <a className='font-black text-2xl sm:text-4xl' href="#">LOGO</a>
+      <img src="/logo.svg" className="h-56 w-56" alt="Logo" />
       <div className="flex flex-col gap-2 col-span-2">
         <h3 className="font-bold text-3xl">Contact us</h3>
         <h5><span className="font-bold text-2xl">Email :</span> <a href="mailto:cse@esi.dz" target="_blank" className="underline text-2xl">cse@esi.dz</a></h5>
