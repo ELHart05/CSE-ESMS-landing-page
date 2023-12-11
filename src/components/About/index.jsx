@@ -1,5 +1,4 @@
 import './style.css'
-//TODO: coding about section
 
 const About = () => {
   return (
