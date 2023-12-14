@@ -4,6 +4,7 @@ import Activities from "./components/Activities"
 import Footer from "./components/Footer"
 import About from "./components/About"
 import Hero from "./components/Hero"
+import Agenda from "./components/Agenda"
 
 //TODO: after coding your template call it here to test it
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Challeges />
       <Activities />
+      <Agenda />
       <Footer />
     </main>
   )
