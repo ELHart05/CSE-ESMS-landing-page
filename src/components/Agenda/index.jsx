@@ -1,6 +1,4 @@
-import ArrowR from '/arrow-right.svg'
-import ArrowL from '/arrow-left.svg'
-import { useState } from 'react'
+import reward from '/Prize.svg'
  
 const Agenda = () => {
   const challenges = [
@@ -10,8 +8,8 @@ const Agenda = () => {
     { id: 4, name: 'Challenge 4', time: '13h45-15h15', activity: '' },
   ];
   return (
-    <div className="flex flex-col items-center  gap-4 px-4 py-16 sm:px-20 sm:py-20 2md:px-4">
-    <h2 className='text-main font-black text-3xl sm:text-5xl'>Agenda</h2>
+    <div className="bg-[url('/lineleft.svg')] bg-contain 2lg:pb-0 bg-no-repeat bg-[position:left] flex flex-col items-center  gap-4 px-4 py-16 sm:px-20 sm:py-20 2md:px-4">
+    <h2 className='text-main font-black m-16 text-3xl sm:text-5xl'>Agenda</h2>
     <div className='rounded-xl p-2 bg-[#2B2A4C] sm:p-4 sm:rounded-2xl'>
        <div className='text-white text-center font-poppins text-l font-semibold sm:text-2xl'> check-in and openning  </div>
     </div>
@@ -32,8 +30,9 @@ const Agenda = () => {
     <div className=" gap-8 flex items-center">
             <p  className=" text-black font-semibold text-l  sm:text-lg"> final activity    (go to ten) </p>
           </div>
-    <div className='rounded-xl p-2 bg-[#2B2A4C] sm:p-4 sm:rounded-2xl'>
+    <div className='rounded-xl m-16 p-2 bg-[#2B2A4C] flex justify-center sm:p-4  sm:rounded-2xl'>
        <div className='text-white text-center font-poppins text-l font-semibold sm:text-2xl'>Closing and awards ceremory </div>
+       <img className="w-10 h-10" src={reward} alt={'prize'} />
     </div>
    </div>
   )
